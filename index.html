@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="home">
+        <div class="navbar">
+            <nav>
+                <a href="index.html" class="logo">Web Profile</a>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="hero">
+            <p>Halo,</p>
+            <p>Saya Wahyudin</p>
+            <p>Seorang Mahasiswa</p>
+            <p>di Sekolah Tinggi Teknologi Terpadu Nurul Fikri</p>
+            <br>
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Saya mahasiswa program studi Teknik Informatika,</p>
+            <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">saat ini sudah memasuki semester 5.</p>
+        </div>
+        <img class="foto" src="/assets/me3.png" alt="gambar">
+    </section>
+
+    <section id="about">
+        <div class="about">
+            <div class="description">
+                <p>About Me</p>
+                <p>Sedikit info tentang Saya</p>
+            </div>
+
+            <div class="row">
+                <div class="column" style="background-color: #40b3da;">
+                    <h2>Biodata</h2>
+                        <p>Saya adalah seorang mahasiswa yang tengah meniti jenjang pendidikan di Sekolah Tinggi Terpadu Nurul Fikri, menempuh program studi Teknik Informatika. Saat ini usia saya adalah 20th, 7 tahun mendatang artinya usia saya sudah 27th mwehwhew.</p>
+        
+                </div>
+                <div class="column" style="background-color: #4bc0e7;">
+                    <h2>Info Tambahan</h2>
+                    <p>Saya merupakan seorang yang selalu percaya bahwa gagal adalah rangkaian proses untuk menuju puncak kesuksesan. Jangan lupa, setiap perjuangan selalu diiringi dengan usaha dan doa.</p>
+                </div>
+            </div>
+        </div>   
+    </section>
+
+    <section id="skill">
+        <div class="skill">
+            <div class="desc-skill">
+                <p>Skill</p>
+                <p>Beberapa kemampuan yang saya miliki. Tentunya saya masih terus mengasah skill saya agar menjadi jauh lebih baik.</p>
+            </div>
+
+            <div class="box-container">
+                <div class="box-1">
+                    <span>1</span>
+                    <p>Design Graphic</p>
+                    <p>Menguasai beberapa software/aplikasi desain grafis seperti Adobe Photoshop, Adobe Illustrator, Canva, GIMP, Inkscape, dan Pixellab.</p>
+                </div>
+
+                <div class="box-2">
+                    <span>2</span>
+                    <p>Web Instans</p>
+                    <p>Pemahaman SEO, desain antar muka. Membuat web instan seperti ecommers, elearning, web profile/portfolio dengan menggunakan Wordpress.</p>
+                </div>
+
+                <div class="box-3">
+                    <span>3</span>
+                    <p>Web Desain</p>
+                    <p>Pemahaman dasar pemrograman, responsive design, penguasaan software design (figma) untuk membuat mockup dan prototype, dll.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact">
+            <div class="desc-contact">
+                <p>Contact</p>
+                <p>Anda bisa hubungi saya secara personal melalui form di bawah ini.</p>
+
+                <form action="form.html">
+                    <label for="name">
+                        Nama Anda
+                    </label>
+                    <input type="text" name="nama" id="name" placeholder="Masukan Nama">
+                    <label for="email">
+                        Email 
+                    </label>
+                    <input type="text" name="email" id="email" placeholder="Masukan Email">
+                    <label for="subject">
+                        Subject
+                    </label>
+                    <input class="pesan" type="text" name="subject" id="subject">
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div className="footer-left">
+            <h2>Web Profile</h2>
+            <p>Developed By Wahyudin</p>
+        </div>
+        <div class="footer-right">
+            <ul class="ul">
+                <li class="li">
+                    <a class="a" href="#home">Home</a>
+                </li>
+                <li class="li">
+                    <a class="a" href="#about">About</a>
+                </li>
+                <li class="li">
+                    <a class="a" href="#skill">Skill</a>
+                </li>
+                <li class="li">
+                    <a class="a" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>       
+    </footer>
+</body>
+</html>
